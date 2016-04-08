@@ -1,0 +1,347 @@
+div.section-1 {
+	background-color: #006699;
+}
+
+div.section-1 img.section-divider {
+	width: 100%;
+	height: auto;
+}
+
+div.section-1 img#trusty-flow-left.welcome-characters {
+	width: 35%;
+	height: auto;
+}
+
+div.section-1 div.section-title-wrapper {
+	display: inline-block;
+	width: 29%;
+	text-align: center;
+}
+
+div.section-1 div.section-title-wrapper h2 {
+	display: inline-block;
+	font-family: 'ostrich_sansblack', Arial, sans-serif;
+	width: auto;
+	height: auto;
+	text-align: center;
+}
+
+div.section-1 div.section-title-wrapper div.padding {
+	display: inline-block;
+	width: 100%;
+	height: 1px;
+}
+
+div.section-1 img#bright-power-right.welcome-characters {
+	display: inline-block;
+	width: 34%;
+	height: auto;
+}
+
+div.section-2 {
+	background-color: #f15a29; /*#2bb673;*/
+}
+
+div.section-2 img.section-divider {
+	width: 100%;
+	height: auto;
+}
+
+div.section-2 div.video-wrapper {
+	margin: 0 auto;
+	max-width: 60%;
+}
+
+div.section-2 div.video-wrapper video {
+	margin: 7% 0;
+	width: 100%;
+	height: auto;
+}
+
+div.section-3 {
+	width: 100%;
+	height: auto;
+	background-color: #ee2c6c;
+}
+
+div.section-3 img.section-divider {
+	width: 100%;
+	height: auto;
+}
+
+div.section-3 div.main-content-wrap {
+	max-width: 60%;
+}
+
+div.section-3 h1 {
+	padding-top: 50px;
+}
+
+div.section-3 p {
+	padding-bottom: 80px;
+}
+
+/* --------------------------- Media Queries --------------------------- */ 
+
+@media screen and (min-width: 1351px) {
+
+	header div.nav-buttons-wrapper {
+		width: 1214px;
+	}
+
+	div.main-content-wrap {
+		width: 1079px;
+	}
+
+	div.section-2 div.video-wrapper {
+    	width: 809px;
+	}
+
+	footer div.main-content-wrap {
+    	width: 1079px;
+	}
+}
+
+@media screen and (max-width: 1350px) {
+
+	header div.nav-buttons-wrapper div.nav-bar {
+		width: 73%
+	}
+
+	header div.nav-buttons-wrapper div.nav-bar a {
+		width: 23%;
+	}
+}
+
+@media screen and (min-width: 1280px) {
+
+	div.section-1 div.section-title-wrapper h2 strong#home-healthy {
+		font-size: 100px;
+	}
+
+	div.section-1 div.section-title-wrapper h2 strong#home-healthy em.kern {
+		letter-spacing: -15px;
+	}
+
+	div.section-1 div.section-title-wrapper h2 strong#home-teeth {
+		font-size: 135px;
+		line-height: 110px;
+	}
+
+	div.section-1 div.section-title-wrapper h2 small#home-for {
+		font-size: 50px;
+	}
+
+	div.section-1 div.section-title-wrapper h2 strong#home-every {
+		font-size: 135px;
+		line-height: 120px;
+	}
+
+	div.section-1 div.section-title-wrapper h2 strong#home-every em.kern {
+		letter-spacing: -10px;
+	}
+
+	div.section-1 div.section-title-wrapper h2 strong#home-child {
+		font-size: 165px;
+		line-height: 140px;
+	}
+}
+
+@media screen and (max-width: 1280px) {
+
+	div.section-1 div.section-title-wrapper h2 {
+		width: 150px;
+	}
+
+	div.section-1 div.section-title-wrapper h2 strong#home-healthy {
+		font-size: 50px;
+	}
+
+	div.section-1 div.section-title-wrapper h2 strong#home-healthy em.kern {
+		letter-spacing: -7.5px;
+	}
+
+	div.section-1 div.section-title-wrapper h2 strong#home-teeth {
+		font-size: 67.5px;
+	}
+
+	div.section-1 div.section-title-wrapper h2 small#home-for {
+		font-size: 30px;
+		line-height: 10px;
+	}
+
+	div.section-1 div.section-title-wrapper h2 strong#home-every {
+		font-size: 67.5px;
+		line-height: 60px;	
+	}
+
+	div.section-1 div.section-title-wrapper h2 strong#home-every em.kern {
+		letter-spacing: -5px;
+	}
+
+	div.section-1 div.section-title-wrapper h2 strong#home-child {
+		font-size: 82.5px;
+	}
+
+	div.section-1 div.section-title-wrapper div.padding {
+		height: 100px;
+	}
+}
+
+@media screen and (max-width: 1170px) {
+
+	div.section-1 div.section-title-wrapper div.padding {
+		height: 70px;
+	}
+}
+
+@media screen and (max-width: 1048px) {
+
+	header div.nav-buttons-wrapper div.nav-bar {
+		width: 63%;
+	}
+
+	header div.nav-buttons-wrapper div.nav-bar a {
+		width: 45.000000000%;
+	}
+
+	div.section-1 div.section-title-wrapper div.padding {
+		height: 50px;
+	}
+}
+
+@media screen and (max-width: 940px) {
+
+	div.section-1 div.section-title-wrapper div.padding {
+		height: 30px;
+	}
+}
+
+@media screen and (max-width: 860px) {
+
+	div.section-1 div.section-title-wrapper div.padding {
+		height: 15px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+
+	header div.nav-buttons-wrapper div.nav-bar {
+		width: 53%;
+	}
+
+	header div.nav-buttons-wrapper div.nav-bar a {
+		width: 45.0000000000%;
+	}
+
+	div.section-1 div.section-title-wrapper div.padding {
+		height: 1px;
+	}
+
+	div.section-2 div.video-wrapper {
+		max-width: 80%;
+	}
+}
+
+@media screen and (max-width: 610px) {
+
+	header div.nav-buttons-wrapper div.home-logo {
+		display: block;
+		margin: 0 auto;
+	}
+
+	header div.nav-buttons-wrapper div.home-logo a {
+		display: block;
+		margin: 0 auto;
+	}
+
+	header div.nav-buttons-wrapper div.nav-bar {
+		width: 100%;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	header div.nav-buttons-wrapper div.nav-bar a {
+		width: 100%;
+	}
+
+	div.section-1 div.section-title-wrapper h2 {
+		width: 85px;
+	}
+
+	div.section-1 div.section-title-wrapper h2 strong#home-healthy {
+		font-size: 25px;
+	}
+
+	div.section-1 div.section-title-wrapper h2 strong#home-healthy em.kern {
+		letter-spacing: -3.75px;
+	}
+
+	div.section-1 div.section-title-wrapper h2 strong#home-teeth {
+		font-size: 33.75px;
+	}
+
+	div.section-1 div.section-title-wrapper h2 small#home-for {
+		font-size: 25px;
+		line-height: 10px;
+	}
+
+	div.section-1 div.section-title-wrapper h2 strong#home-every {
+		font-size: 33.75px;
+		line-height: 30px;	
+	}
+
+	div.section-1 div.section-title-wrapper h2 strong#home-every em.kern {
+		letter-spacing: -2.5px;
+	}
+
+	div.section-1 div.section-title-wrapper h2 strong#home-child {
+		font-size: 41.25px;
+	}
+
+	div.section-1 div.section-title-wrapper div.padding {
+		height: 30px;
+	}
+
+	div.section-1 img#bright-power-right.welcome-characters {
+		width: 32%;
+	}
+}
+
+@media screen and (max-width: 500px) {
+
+	div.section-1 div.section-title-wrapper div.padding {
+		height: 15px;
+	}
+}
+
+@media screen and (max-width: 430px) {
+
+	div.section-1 div.section-title-wrapper div.padding {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 360px) {
+
+	footer div.main-content-wrap h2 {
+		margin: 0 auto;
+		width: 100%;
+		text-align: center;
+	}
+
+	footer div.main-content-wrap p { 
+		width: 100%;
+		text-align: center;
+		font-size: 14px;
+	}
+
+	div.section-1 div.section-title-wrapper div.padding {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 320px) {
+
+	
+}
