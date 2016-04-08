@@ -25,7 +25,6 @@ em {
 
 a {
 	text-decoration: none;
-	vertical-align: middle;
 }
 
 p {
