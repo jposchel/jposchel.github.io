@@ -78,7 +78,7 @@ header div.nav-buttons-wrapper {
 }
 
 header div.nav-buttons-wrapper div.home-logo {
-	display: inline;
+	display: inline-block;
 }
 
 header div.nav-buttons-wrapper div.home-logo a {
