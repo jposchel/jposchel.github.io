@@ -8,6 +8,21 @@ html, body {
 	padding: 0px;
 }
 
+body {
+	height: 100%;
+	position: relative;
+}
+
+.view-wrapper {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: auto;
+	background-color: #444444;
+}
+
 div {
 	margin: 0px;
 	padding: 0px;
@@ -36,16 +51,13 @@ header {
 footer {
 	margin: 0px auto;
 	padding: 0px;
-	background-color: #f2c082;
 }
 
 h1, h2, h3, h4, h5, h6, p {
 	margin: 0px;
 	padding: 5px;
-	color: #404040;
-	/*font-family: Arial, Sans-Serif;*/
-	font-family: 'Domine', serif;
-	font-weight: 700;
+	color: #aaaaaa;
+	font-family: Arial, Sans-Serif;
 	font-weight: normal;
 }
 
@@ -56,10 +68,8 @@ h1 {
 p {
 	border: 0px;
 	display: inline-block;
-	/*font-family: Arial, Sans-Serif;*/
-	font-family: 'Domine', serif;
-	font-weight: 400;
-	font-size: 14px;
+	font-family: Arial, Sans-Serif;
+	font-size: 12px;
 }
 
 a {
@@ -67,10 +77,8 @@ a {
 	padding: 0px;
 	display: inline-block;
 	text-decoration: none;
-	color: #603913;
-	/*font-family: Arial, Sans-Serif;*/
-	font-family: 'Domine', serif;
-	font-weight: 700;
+	color: #aaaaaa;
+	font-family: Arial, Sans-Serif;
 	font-weight: normal;
 }
 
@@ -167,14 +175,14 @@ nav.nav-horizontal ul li {
 }
 
 p.body-copy {
-	font-size: 16px;
+	font-size: 12px;
 	line-height: 30px;
 }
 
 a.call-to-action {
-	font-size: 22px;
+	font-size: 12px;
 	text-decoration: underline;
-	color: #603913;
+	color: #cccccc;
 }
 
 a.button-action {
@@ -214,7 +222,7 @@ a.button.logo-home-main img.button.logo-home-main {
 }
 
 header div.main-content {
-	position: relative;
+	/*position: relative;*/
 }
 
 header nav.main-site-nav {
@@ -228,9 +236,9 @@ img.home-lettermark-main {
 }
 
 .section-header {
-	height: 1000px;
-	background: url("../img/bowl-336538.jpg") no-repeat center bottom;
-	background-size: cover;
+	height: auto;
+	/*background: url("../img/bowl-336538.jpg") no-repeat center bottom;*/
+	/*background-size: cover;*/
 }
 /* --- END Sitewide Styles: Header --- */
 
@@ -239,9 +247,25 @@ img.home-lettermark-main {
 a.button-small {
 	margin: 50px;
 }
+
+.features-1 div.main-content ul {
+	width: 250px;
+	padding: 10px 10px 20px 10px;
+	background-color: #555555;
+}
+
+.features-1 div.main-content ul li {
+	width: 200px;
+}
 /* --- END Sitewide Styles: Content --- */
 
 /* -------------------- Sitewide Styles: Footer -------------------- */
+
+footer {
+	position: absolute;
+	bottom: 0;
+	height: 100px;
+}
 
 footer div.main-content {
 	text-align: center;
