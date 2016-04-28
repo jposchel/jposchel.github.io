@@ -1,322 +1,331 @@
-body {
-	margin: 0;
+/* -------------------- Basic Styles: Tags -------------------- */
+
+@import url(https://fonts.googleapis.com/css?family=Domine:400,700);
+
+html, body {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
 }
 
-h1 {
-	margin: 0;
-	font-family: 'ostrich_sansblack', Arial, sans-serif;
-	color: #ffffff;
-	text-align: center;
-	text-decoration: none;
-	margin-top: 20px;
-	margin-bottom: 10px;
+div {
+	margin: 0px;
+	padding: 0px;
 }
 
-h2 {
-	margin: 0;
-	font-family: 'clear_sansregular', Arial, sans-serif;
-	color: #ffffff;
-	text-decoration: none;
-}
-
-em {
-	font-style: normal;
-}
-
-a {
-	text-decoration: none;
+img {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	width: 100%;
+	display: inline-block;
 	vertical-align: middle;
 }
 
-p {
-	margin: 0;
-	font-family: 'clear_sansregular', Arial, sans-serif;
-	color: #ffffff;
-	padding-top: 20px;
-	padding-bottom: 40px;
-}
-
-div.main-content-wrap {
-	margin: 0 auto;
-	max-width: 80%;
-}
-
-img.section-divider {
-	width: 100%;
-	height: auto;
-}
-
-div.video-wrapper {
-	margin: 0 auto;
-	max-width: 60%;
-}
-
-div.video-wrapper video {
-	margin: 7% 0;
-	width: 100%;
-	height: auto;
+nav {
+	margin: 0px;
+	padding: 0px;
+	display: inline-block;
 }
 
 header {
-	background-color: #ffffff; /*#006699;*/
-	padding-top: 20px;
-	min-height: 150px;
-}
-
-header h1 {
-	margin: 0 0;
-}
-
-header h2 {
-	margin: 0 0;
-}
-
-header div.nav-buttons-wrapper {
-	display: block;
-	width: 90%;
-	margin: 0 auto;
-}
-
-header div.nav-buttons-wrapper div.home-logo {
-	display: inline-block;
-}
-
-header div.nav-buttons-wrapper div.home-logo a {
-	display: inline-block;
-	width: 250px;
-	height: 90px;
-	background: url("../images/trusty-and-friends-logo-home.png");
-	background-size: 100%;
-	background-repeat: no-repeat;
-	padding-top: 40px;
-}
-
-header div.nav-buttons-wrapper div.home-logo a h1 {
-	margin-left: -999999999px;
-}
-
-header div.nav-buttons-wrapper div.nav-bar {
-	display: inline-block;
-	margin-top: 50px;
-	width: 79%;
-}
-
-header div.nav-buttons-wrapper div.nav-bar a {
-	display: inline-block;
-	width: 24.0000000000%; /*15.6%;*/
-	height: auto;
-	margin: 3px;
-	border-radius: 4px;
-	text-align: center;
-	background-color: #2bb673;
-}
-
-header div.nav-buttons-wrapper div.nav-bar a h2 {
-	font-size: 110%;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	margin: 0px auto;
+	padding: 0px;
 }
 
 footer {
-	background-color: #2bb673;
+	margin: 0px auto;
+	padding: 0px;
+	background-color: #f2c082;
 }
 
-footer div.main-content-wrap {
-	max-width: 80%;
-	padding-bottom: 5%;
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0px;
+	padding: 5px;
+	color: #404040;
+	/*font-family: Arial, Sans-Serif;*/
+	font-family: 'Domine', serif;
+	font-weight: 700;
+	font-weight: normal;
 }
 
-footer div.main-content-wrap h2 {
+h1 {
+	font-size: 28px;
+}
+
+p {
+	border: 0px;
 	display: inline-block;
-	margin: 1%;
-	font-size: 18px;
-	font-weight: lighter;
+	/*font-family: Arial, Sans-Serif;*/
+	font-family: 'Domine', serif;
+	font-weight: 400;
+	font-size: 14px;
 }
 
-footer div.main-content-wrap p { 
+a {
+	margin: 0px;
+	padding: 0px;
 	display: inline-block;
-	margin: 1%;
-	font-size: 18px; 
+	text-decoration: none;
+	color: #603913;
+	/*font-family: Arial, Sans-Serif;*/
+	font-family: 'Domine', serif;
+	font-weight: 700;
+	font-weight: normal;
 }
 
-/* --------------------------- Media Queries --------------------------- */ 
+ul {
+	list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
 
-@media screen and (min-width: 1351px) {
+li {
+	height: auto;
+	width: 100px;
+}
+/* --- END Basic Styles: Tags --- */
 
-	header div.nav-buttons-wrapper {
-		width: 1214px;
-	}
+/* -------------------- Basic Styles: Classes -------------------- */
 
-	div.main-content-wrap {
-		width: 1079px;
-	}
+div.main-content {
+	max-width: 1500px;
+	padding: 50px 50px;
+	margin: 0 auto;
+}
 
-	div.section-2 div.video-wrapper {
-    	width: 809px;
-	}
+div.content-wrapper {
+	display: inline-block;
+}
 
-	footer div.main-content-wrap {
-    	width: 1079px;
+.center-content {
+	text-align: center;
+}
+
+.grid-wrapper {
+	position: relative;
+	width: 100%;
+}
+
+div.col-wrapper {
+	position: relative;
+	width: 100%;
+}
+
+.col-1-of-4 {
+	position: absolute;
+	display: inline-block;
+	width: 25.0000000000%;
+	bottom: flex;
+}
+
+.col-3-of-4 {
+	position: absolute;
+	display: inline-block;
+	width: 75.0000000000%;
+	bottom: flex;
+}
+
+.col-1-of-3 {
+	position: absolute;
+	display: inline-block;
+	width: 33.3333333333%;
+	bottom: flex;
+}
+
+.col-2-of-3 {
+	position: absolute;
+	display: inline-block;
+	width: 66.6666666666%;
+	bottom: flex;
+}
+
+.col-1-of-2 {
+	position: absolute;
+	display: inline-block;
+	width: 50.0000000000%;
+	bottom: flex;
+}
+
+.col-1 {
+	position: absolute;
+	display: inline-block;
+	width: 100.0000000000%;
+	bottom: flex;
+}
+
+nav.nav-vertical ul li {
+	display: block;
+	margin: 7px;
+	width: 100px;
+}
+
+nav.nav-horizontal ul li {
+	display: inline-block;
+	margin: 7px; /* top | right | bottom | left */
+	width: auto;
+}
+
+p.body-copy {
+	font-size: 16px;
+	line-height: 30px;
+}
+
+a.call-to-action {
+	font-size: 22px;
+	text-decoration: underline;
+	color: #603913;
+}
+
+a.button-action {
+	margin: 0 auto;
+	padding: 20px 50px 24px 50px;
+	max-width: 250px;
+	max-height: 40px;
+	display: inline-block;
+	background-color: #00cc66;
+	border-radius: 3px;
+	color: #ffffff;
+	text-align: center;
+}
+
+img.button {
+	max-width: 250px;
+	height: 50px;
+	display: inline-block;
+}
+
+.x-large-headline {
+	font-size: 50px;
+}
+/* --- END Basic Styles: Classes --- */
+
+/* -------------------- Sitewide Styles: Header -------------------- */
+
+a.button.logo-home-main {
+	width: 100px;
+	height: 100px;
+	margin-bottom: 10px;
+}
+
+a.button.logo-home-main img.button.logo-home-main {
+	width: 100px;
+	height: 100px;
+}
+
+header div.main-content {
+	position: relative;
+}
+
+header nav.main-site-nav {
+	position: absolute;
+	right: 50px;
+	top: 60px;
+}
+
+img.home-lettermark-main {
+	margin-top: 0.5%;
+}
+
+.section-header {
+	height: 1000px;
+	background: url("../img/bowl-336538.jpg") no-repeat center bottom;
+	background-size: cover;
+}
+/* --- END Sitewide Styles: Header --- */
+
+/* -------------------- Sitewide Styles: Content -------------------- */
+
+a.button-small {
+	margin: 50px;
+}
+/* --- END Sitewide Styles: Content --- */
+
+/* -------------------- Sitewide Styles: Footer -------------------- */
+
+footer div.main-content {
+	text-align: center;
+}
+
+p.copyright {
+	float: left;
+}
+
+footer div.main-content a.logo-home-main {
+	margin: 10px;
+}
+
+nav.footer-site-nav {
+	float: right;
+}
+/* --- END Sitewide Styles: Footer --- */
+
+/* -------------------- Sitewide Styles: Media Queries -------------------- */
+
+@media (max-width: 1500px) {
+	img.home-lettermark-main {
+		margin-top: 7%;
 	}
 }
 
-@media screen and (max-width: 1350px) {
-
-	header div.nav-buttons-wrapper div.nav-bar {
-		width: 73%
-	}
-
-	header div.nav-buttons-wrapper div.nav-bar a {
-		width: 23%;
+@media (max-width: 1200px) {
+	img.home-lettermark-main {
+		margin-top: 20%;
 	}
 }
 
-@media screen and (max-width: 1280px) {
-
-	div.section-1 div.section-title-wrapper h2 {
-		width: 150px;
+@media (max-width: 900px) {
+	img.home-lettermark-main {
+		margin-top: 30%;
 	}
 
-	div.section-1 div.section-title-wrapper div.padding {
-		height: 100px;
-	}
-}
-
-@media screen and (max-width: 1170px) {
-
-	div.section-1 div.section-title-wrapper div.padding {
-		height: 70px;
-	}
-}
-
-@media screen and (max-width: 1050px) {
-
-	header div.nav-buttons-wrapper div.nav-bar {
-		width: 57.0000%;
+	footer div.main-content {
+		/*clear: both;*/
 	}
 
-	header div.nav-buttons-wrapper div.nav-bar a {
-		width: 45.0000000000%;
-	}
-
-	div.section-1 div.section-title-wrapper div.padding {
-		height: 50px;
-	}
-}
-
-@media screen and (min-width: 940px) {
-	
-	h1 {
-		font-size: 50px;
-	}
-
-	p {
-		font-size: 30px;
-	}
-}
-
-@media screen and (max-width: 940px) {
-
-	div.section-1 div.section-title-wrapper div.padding {
-		height: 30px;
-	}
-}
-
-@media screen and (max-width: 860px) {
-
-	div.section-1 div.section-title-wrapper div.padding {
-		height: 15px;
-	}
-}
-
-@media screen and (max-width: 800px) {
-
-	header div.nav-buttons-wrapper div.nav-bar {
-		width: 53%;
-	}
-
-	header div.nav-buttons-wrapper div.nav-bar a {
-		width: 45.000000000%;
-	}
-
-	div.section-1 div.section-title-wrapper div.padding {
-		height: 1px;
-	}
-
-	div.section-2 div.video-wrapper {
-		max-width: 80%;
-	}
-}
-
-@media screen and (max-width: 580px) {
-
-	header div.nav-buttons-wrapper div.home-logo {
+	p.copyright {
 		display: block;
-		margin: 0 auto;
+		float: none;
 	}
 
-	header div.nav-buttons-wrapper div.home-logo a {
+	nav.footer-site-nav {
 		display: block;
-		margin: 0 auto;
-	}
-
-	header div.nav-buttons-wrapper div.nav-bar {
-		width: 100%;
-		margin-top: 20px;
-		margin-bottom: 20px;
-	}
-
-	header div.nav-buttons-wrapper div.nav-bar a {
-		width: 100%;
-	}
-
-	div.section-1 div.section-title-wrapper h2 {
-		width: 85px;
-	}
-
-	div.section-1 div.section-title-wrapper div.padding {
-		height: 30px;
-	}
-
-	div.section-1 img#bright-power-right.welcome-characters {
-		width: 32%;
+		float: none;
 	}
 }
 
-@media screen and (max-width: 500px) {
+@media (max-width: 700px) {
+	.col-1-at-700px {
+		position: absolute;
+		display: inline-block;
+		width: 100.0000000000%;
+		bottom: flex;
+	}
 
-	div.section-1 div.section-title-wrapper div.padding {
-		height: 15px;
+	img.home-lettermark-main {
+		margin-top: 50%;
 	}
 }
 
-@media screen and (max-width: 430px) {
-
-	div.section-1 div.section-title-wrapper div.padding {
-		display: none;
-	}
-}
-
-@media screen and (max-width: 360px) {
-
-	footer div.main-content-wrap h2 {
-		margin: 0 auto;
-		width: 100%;
+@media (max-width: 650px) {
+	header nav.main-site-nav {
+		position: static;
+		display: block;
+		margin: 30px 0px 0px 0px;
 		text-align: center;
 	}
 
-	footer div.main-content-wrap p { 
-		width: 100%;
-		text-align: center;
-		font-size: 14px;
+	nav ul li {
+		display: block;
+		margin: 7px;
+		width: 100px;
 	}
 
-	div.section-1 div.section-title-wrapper div.padding {
-		display: none;
+	footer div.main-content a.button.logo-home-main {
+		display: inline-block;
 	}
 }
 
-@media screen and (max-width: 320px) {
+@media (max-width: 500px) {
 
-	
 }
